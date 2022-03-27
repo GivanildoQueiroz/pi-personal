@@ -24,7 +24,7 @@ public class UsuarioController {
     
     @GetMapping
     public ModelAndView retornarTelaLogin() {
-        ModelAndView modelAndView = new ModelAndView("index");
+        ModelAndView modelAndView = new ModelAndView("login");
         return modelAndView;
     }
 
@@ -41,4 +41,5 @@ public class UsuarioController {
     public List<Usuario> listarUsuario(){
         return db.findAll();
     }
+    
 }

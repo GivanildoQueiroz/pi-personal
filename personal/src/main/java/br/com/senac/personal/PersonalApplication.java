@@ -17,8 +17,6 @@ public class PersonalApplication {
 		InternalResourceViewResolver resolver = new InternalResourceViewResolver();
 		resolver.setPrefix("/WEB-INF/views/");
 		resolver.setSuffix(".jsp");
-		//Expondo atributos
-		resolver.setExposedContextBeanNames("carrinho","usuarioLogado");
 		return resolver;
 	}
 }
