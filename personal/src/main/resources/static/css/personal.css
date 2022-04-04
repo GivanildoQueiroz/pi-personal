@@ -1,3 +1,136 @@
 #body{
-    background-color: aqua;
+    
+    background: linear-gradient(90deg, #A8DADC 75%, #FFFFFF 25%);
+}
+
+#div1{
+    background-image:  url("/img/Rectangle 14.png");
+    position: relative;
+    left: 0%;
+    height: 100%;
+}
+
+#img1{
+    background-image:  url("/img/Brown Clean Grid Fashion Moodboard Photo Collage 1.png");
+    position: relative;
+    width: 1195px;
+    height: 1292px;
+    left: 112px;
+    top: 269px;
+} 
+
+#contentLogin{
+    position: absolute;
+    width: 833px;
+    height: 696px;  
+    left: 179px;
+    top: 260px;
+    background: #A8DADC;
+    border: 1px solid #A8DADC ;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#login_title{
+    position: absolute;
+    width: 308px;
+    height: 262px;
+    left: 263px;
+    top: 51px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #FEF9F9;
+}
+
+#inputEmail{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    position: absolute;
+    width: 610px;
+    height: 88px;
+    top:150px;
+    left:110px;
+    right:113px;
+    background: #457B9D;
+    border-radius: 16px;
+} 
+
+#inputPass{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    position: absolute;
+    width: 610px;
+    height: 88px;
+    top:270px;
+    left:110px;
+    right:113px;
+    background: #457B9D;
+    border-radius: 16px;
+}
+
+#buttom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    width: 361px;
+    height: 59px;
+    left: 228px;
+    top: 400px;
+    background: linear-gradient(180deg, #A8DADC 0%, #192A51 100%);
+    border-radius: 21px;
+}
+
+#esqueciSenha{
+    position: absolute;
+    width: 538px;
+    height: 28px;
+    left: 130px;
+    top: 564px;
+    color: #FFFFFF  !important;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+}
+
+#cadastro{
+    position: absolute;
+    width: 538px;
+    height: 28px;
+    left: 130px;
+    top: 614px;
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+}
+
+input{
+   color:#FFFFFF;
+   font-family: 'Roboto';
+   font-style: normal;
+   border-width: 0px;
+}
+
+input::placeholder {
+    font-family: 'Roboto';
+    font-style: normal;
+    color: #FFFFFF;
 }
